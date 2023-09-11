@@ -35,18 +35,39 @@ header a {
   z-index: 1;
   bottom: 20px;
   right: 20px;
-  padding: 5px 10px;
-  border-radius: 40px;
+  padding: 7px 15px;
+  border-radius: 50px;
   font-size: 20px;
   background-color: black;
   color: white;
   border: none;
   cursor: pointer;
+  box-shadow: none;
 }
 main {
   width: 80%;
   margin: auto;
 }
+
+button {
+  color: white;
+  font-weight: bold;
+  padding: 5px 15px;
+  border-radius: 2px;
+  background-color: #ed0000;
+  border: none;
+  box-shadow: 0px 0px 5px #ed0000;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  opacity: 0.8;
+}
+button:active {
+  padding: 4px 14px;
+}
+
 
 /* START OF SECTION1 */
 
@@ -73,7 +94,7 @@ main {
   margin-bottom: 15px;
 }
 .passionate {
-  width: 65%;
+  width: 70%;
   margin: auto;
   font-size: 0.8rem;
 }
@@ -81,16 +102,7 @@ main {
   color: rebeccapurple;
   font-weight: bold;
 }
-button {
-  color: white;
-  font-weight: bold;
-  padding: 5px 15px 5px 15px;
-  border-radius: 2px;
-  background-color: #ed0000;
-  border: none;
-  box-shadow: 0px 0px 5px #ed0000;
-  margin-top: 20px;
-}
+
 
 /*  END OF SECTION1 */
 
@@ -141,6 +153,7 @@ button {
 
 .section2-article2 {
   display: inline-block;
+  text-align: center;
 }
 .section2-article2 img{
   width: 300px;
@@ -165,6 +178,10 @@ button {
   font-weight: bold;
   margin-bottom: 15px;
 }
+.section-contact p {
+  width: 70%;
+  margin: auto;
+}
 .section-contact button {
   color: white;
   font-weight: bold;
@@ -173,7 +190,7 @@ button {
   background-color: #ed0000;
   border: none;
   box-shadow: 0px 0px 5px #ed0000;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 
