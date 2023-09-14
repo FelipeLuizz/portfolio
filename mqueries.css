@@ -1,0 +1,56 @@
+@media screen and (max-width: 575.98px) {
+  header {
+    height: 50px;
+  }
+  header h1 {
+    font-size: 1.5rem;
+  }
+  main {
+    width: 96%;
+  }
+  .section1 {
+    margin-top: 90px;
+  }
+  .area {
+    font-size: 2rem;
+    line-height: 1.9rem;
+  }
+  .passionate {
+    width: 94%;
+  }
+  .section2 {
+    display: block;
+  }
+  .section2-article2 {
+  display: block;
+  text-align: center;
+}
+  .section2-article2 img{
+  width: 100%;
+}
+  
+  /* START PROJECTS SECTION  */
+
+  .projects .p {
+    width: 94%;
+  }
+  .projects-section {
+    display: block;
+  }
+  
+
+
+
+  /*  END OF PROJECTS SECTION */
+
+  .section-contact {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  }
+  .section-contact p {
+  width: 94%;
+  }
+  footer {
+    width: 96%;
+  }
+}
