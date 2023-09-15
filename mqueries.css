@@ -37,8 +37,13 @@
   .projects-section {
     display: block;
   }
-  
-
+  #display {
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+  .projects-section img {
+    display: none;
+  }
 
 
   /*  END OF PROJECTS SECTION */
